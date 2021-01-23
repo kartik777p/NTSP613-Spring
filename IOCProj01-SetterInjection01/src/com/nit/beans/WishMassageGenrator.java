@@ -16,7 +16,7 @@ public class WishMassageGenrator {
 	public String genrateWishMsg(String name) {
 		int hour=0;
 		hour=date.getHours();
-		System.out.println("Current time is "+hour);
+		System.out.println("Current hours is ::- "+hour);
 		if(hour<=12)
 		    return"Good morning "+name+" Todays date is::"+date ;
 		else if(hour<=15)
